@@ -77,11 +77,11 @@ class Markdown {
   
   ## Links
 
-  Preview of Application:
+  Preview of README_Generator Application:
 
   https://watch.screencastify.com/v/wVZOM39eNooqgurRaLlb
 
-  Link to Repository:
+  Link to README_Generator Repository:
 
   https://github.com/AndyLaBorde/README_generator
 
