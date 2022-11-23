@@ -3,7 +3,15 @@
   ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
   ## Table of Content
-  -[Project Description](#description)  
+  -[Project Description](#description)
+
+  -[User Story](#user-story)  
+
+  -[Acceptance Criteria](#acceptance-criteria)
+
+  -[Mock Up](#mock-up)  
+
+  -[Deployed Application](#deployed-application)    
 
   -[Installation](#installation)  
 
@@ -20,7 +28,7 @@
 
   ## Description 
 
-  takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person  
+  This application takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person.  
 
   ### User Story
 
