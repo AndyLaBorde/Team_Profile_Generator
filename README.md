@@ -58,11 +58,17 @@
 
   ## Mock Up
 
-  ![Alt text](assets/images/10-object-oriented-programming-homework-demo.png)
+  ![Alt text](dist/assets/images/10-object-oriented-programming-homework-demo.png)
 
   ## Deployed Application
 
-  // Under Construction //
+  Team Profile Generator Demo:
+
+  https://watch.screencastify.com/v/LXEHa7wzK3RecbCmMLLe
+
+  Team Profile Generator repo:
+
+  https://github.com/AndyLaBorde/Team_Profile_Generator
 
   ## Installation  
 
@@ -93,12 +99,11 @@
 
   ## Tests   
 
-  "npm run test" 
-  // Under Construction //
+  "npm run test"
 
   ## Questions  
 
-  If there are any additiopnal questions or inquirires you can contact me through GitHub or Email.      
+  If there are any additional questions or inquirires you can contact me through GitHub or Email.      
   GitHub: https://github.com/AndyLaBorde,      
   Email: Andrew.lab14@gmail.com       
   
