@@ -5,27 +5,47 @@ const managerObj = new Manager("Karen", 444, "karen@testmail.com", "Manager", 78
 describe('Manager', ()=>{
     describe('getName', () => {
         it('it should return the new manager name', () => {
-            expect(managerObj).getName().toEqual("Carl")
+
+            const result = managerObj.getName(managerObj);
+
+            expect(result).toEqual("Karen");
+
         })
     })
     describe('getEmail', () => {
         it('should return the new manager email', () => {
-            expect(managerObj).getEmail().toEqual("karen@testmail.com")
+
+            const result = managerObj.getEmail(managerObj);
+
+            expect(result).toEqual("karen@testmail.com");
+
         })
     })
     describe('getId', () => {
         it('should return the new manager id', () => {
-            expect(managerObj).getId().toEqual(111)
+
+            const result = managerObj.getId(managerObj);
+
+            expect(result).toEqual(444);
+
         })
     })
     describe('getRole', () => {
         it('should return the new manager role', () => {
-            expect(managerObj).getRole().toEqual("Manager")        
+
+            const result = managerObj.getRole(managerObj);
+
+            expect(result).toEqual("Manager");   
+            
         })
     })
     describe('getOfficeNum', () => {
         it('should return the new manager office number', () => {
-            expect(managerObj).getOfficeNum().toEqual(789)
+
+            const result = managerObj.getOfficeNum(managerObj);
+
+            expect(result).toEqual(789);
+
         })
     })
 });
