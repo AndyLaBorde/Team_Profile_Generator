@@ -5,32 +5,52 @@ const internObj = new Intern("Carl", 3, "llamapallooza@testmail.com", "Intern", 
 describe('Intern', ()=>{
     describe('getName', () => {
         it('it should return the new intern name', () => {
-            expect(internObj.getName(internObj)).toEqual("Carl")
+
+            const result = internObj.getName(internObj);
+
+            expect(result).toEqual("Carl");
+            
         })
     })
     
 
     describe('getEmail', () => {
         it('should return the new intern email', () => {
-            expect(internObj.getEmail(internObj)).toEqual("llamapallooza@testmail.com")
+
+            const result = internObj.getEmail(internObj);
+
+            expect(result).toEqual("llamapallooza@testmail.com");
+
         })
     })
 
     describe('getId', () => {
         it('should return the new intern id', () => {
-            expect(internObj.getId(internObj)).toEqual(3)
+
+            result = internObj.getId(internObj);
+
+            expect(result).toEqual(3);
+
         })
     })
 
     describe('getRole', () => {
         it('should return the new intern role', () => {
-            expect(internObj.getRole(internObj)).toEqual("Intern")        
+
+            const result = internObj.getRole(internObj);
+
+            expect(result).toEqual("Intern");   
+        
         })
     })
 
     describe('getSchool', () => {
         it('should return the new intern school', () => {
-            expect(internObj.getSchool(internObj)).toEqual("DU")
+
+            const result = internObj.getSchool(internObj);
+
+            expect(result).toEqual("DU");
+
         })
     })
 });
