@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "readme": "node readme.js",
     "start": "node index.js"
   },
@@ -12,5 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "inquirer": "^8.2.4"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
   }
 }
