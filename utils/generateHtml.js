@@ -1,7 +1,7 @@
 class Html {
 
     static generateIntern(data) {
-    return `<div class="bg-light text-center p-3 m-3 rounded">
+    return `<div class="col-4 bg-light text-center p-3 m-3 rounded">
       <h2>${data.name}</h2>
       <h3>${data.role}</h3>
       <p>ID:${data.id}</p>
@@ -14,7 +14,7 @@ class Html {
 
     static generateEngineer(data) {
     return `
-        <div class="bg-light text-center p-3 m-3 rounded">
+        <div class="col-4 bg-light text-center p-3 m-3 rounded">
                 <h2>${data.name}</h2>
                 <h3>${data.role}</h3>
                 <p>ID:${data.id}</p>
@@ -46,9 +46,9 @@ class Html {
     <h1 class="text-center bg-primary p-3">My Team</h1>
     <div class= "d-flex justify-content-center">
     <div class = "row">
-    <main id="main">
+    <main id="main" class="d-flex vw-100 justify-content-center align-items-center">
       
-      <div class="bg-light text-center p-3 m-3 rounded">
+      <div class="col-4 bg-light text-center p-3 m-3 rounded">
             <h2>${data.name}</h2>
             <h3>${data.role}</h3>
             <p>ID:${data.id}</p>

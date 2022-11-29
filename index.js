@@ -159,7 +159,7 @@ function init() {
         );
         // console.log(manager);
         const madeHtml = Html.generateHtml(manager)
-        fs.writeFile('index.html', madeHtml, function (err) {
+        fs.writeFile('./dist/index.html', madeHtml, function (err) {
                 if (err){
                     console.error(err);
                 }
