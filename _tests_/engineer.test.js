@@ -1,33 +1,33 @@
 const Engineer = require('../lib/engineer.js');
 
-
+const engineerObj = new Engineer("Jimmy", 111, "Neutron@testmail.com", "Engineer", "JimmyNeutron91");
 
 describe('Engineer', ()=>{
     describe('getName', () => {
         it('it should return the new engineer name', () => {
-            const engineerObj = new Engineer("Jimmy", 111, "Neutron@testmail.com", "Engineer", "JimmyNeutron91");
 
+            const result = engineerObj.getName(engineerObj);
 
-            expect(engineerObj.getName(engineerObj)).toEqual("Jimmy");
+            expect(result).toEqual("Jimmy");
         })
     })
     describe('getEmail', () => {
         it('should return the new engineer email', () => {
-            const engineerObj = new Engineer("Jimmy", 111, "Neutron@testmail.com", "Engineer", "JimmyNeutron91");
+            
+            const result = engineerObj.getEmail(engineerObj);
 
-            expect(engineerObj.getEmail(engineerObj)).toEqual("Neutron@testmail.com")
+            expect(result).toEqual("Neutron@testmail.com")
         })
     })
     describe('getId', () => {
         it('should return the new engineer id', () => {
-            const engineerObj = new Engineer("Jimmy", 111, "Neutron@testmail.com", "Engineer", "JimmyNeutron91");
+            const result = engineerObj.getId(engineerObj)
 
-            expect(engineerObj.getId(engineerObj)).toEqual(111)
+            expect(result).toEqual(111)
         })
     })
     describe('getRole', () => {
         it('should return the new engineer role', () => {
-            const engineerObj = new Engineer("Jimmy", 111, "Neutron@testmail.com", "Engineer", "JimmyNeutron91");
 
             const result = engineerObj.getRole(engineerObj);
 
@@ -36,7 +36,6 @@ describe('Engineer', ()=>{
     })
     describe('getGitHub', () => {
         it('should return the new engineer gitHub', () => {
-            const engineerObj = new Engineer("Jimmy", 111, "Neutron@testmail.com", "Engineer", "JimmyNeutron91");
 
             const result = engineerObj.getGitHub(engineerObj)
 
